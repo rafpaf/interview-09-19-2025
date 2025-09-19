@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 0.9rem;
+}
+
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+.chat {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  border-left: 1px solid #eee;
+  padding-left: 1rem;
+  width: 400px;
+}
+.chatMessages {
+  flex-flow: column nowrap;
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+}
+.message {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background: #e5e5ea;
+}
+
+.message.me {
+  margin-left: 30%;
+}
+
+.message.bot {
+  color: #fff;
+  background: #03a2e9;
+  margin-right: 30%;
+}
+
+input {
+  font-size: 0.9rem;
+}
+button {
+  font-size: 0.9rem;
+}
+
+.sendControls {
+  display: flex;
+  gap: 0.25rem;
+}
+.chatControls {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.status {
+  text-align: left;
+  font-weight: bold;
+}
+
+.dataTable {
+  padding: 20px;
+  height: 80vh;
+  overflow: auto;
+  width: 80vw;
+}
+.dataTable h2 {
+  margin-bottom: 1.5rem;
+}
