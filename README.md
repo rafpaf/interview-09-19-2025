@@ -1,6 +1,7 @@
 # AI-powered SaaS data visualizer
 
-Ensure that ports 8080 and 5173 are available
+- Ensure that ports 8080 and 5173 are available
+- Add an OPENAI_API_KEY to your env
 
 ## API
 
@@ -22,3 +23,5 @@ cd app
 npm install
 npm run dev
 ```
+
+Then open http://localhost:5173
